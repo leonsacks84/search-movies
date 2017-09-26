@@ -13,10 +13,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="favorite_movies_app" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xca-24-31o"/>
-                        <viewControllerLayoutGuide type="bottom" id="0wP-TU-8xr"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +71,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="m42-5c-z9C"/>
+                        <viewLayoutGuide key="safeArea" id="Oas-Ot-1ZY"/>
                     </view>
                     <navigationItem key="navigationItem" id="5IX-0q-bSY"/>
                     <connections>
@@ -131,15 +127,9 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsV-SU-I2X">
-                                                    <rect key="frame" x="289" y="49" width="46" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Fav"/>
-                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="favButton" destination="bsV-SU-I2X" id="P8a-tT-3UL"/>
                                             <outlet property="movieImageView" destination="T6L-dl-vEL" id="I8u-V4-pAt"/>
                                             <outlet property="movieTitle" destination="u83-vE-wDh" id="cLD-EN-OWX"/>
                                             <outlet property="movieYear" destination="lEc-MU-NjD" id="vA3-3M-EHo"/>
@@ -161,7 +151,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="hSB-Fb-ltn"/>
+                        <viewLayoutGuide key="safeArea" id="jbg-lZ-s93"/>
                     </view>
                     <connections>
                         <outlet property="searchText" destination="I44-Io-cZI" id="wKi-yl-ICn"/>

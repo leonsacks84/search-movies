@@ -60,7 +60,6 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
                                                       for: indexPath) as! CustomTableViewCell
         
         let idx: Int = indexPath.row
-        movieCell.favButton.tag = idx
         
         movieCell.movieTitle?.text = searchResults[idx].title
         movieCell.movieYear?.text = searchResults[idx].year
